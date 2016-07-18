@@ -267,19 +267,7 @@
         .banner-buttons .button:first-of-type {
             margin:0 14px 0 0;
         }
-        
-        /*.fuse-overlay {*/
-        /*  top: 0;*/
-        /*  left: 0;*/
-        /*  width: 100%;*/
-        /*  height: 100%;*/
-        /*  z-index: 9999;*/
-        /*  visibility:hidden;*/
-        /*  opacity:0;*/
-        /*  position:fixed;*/
-        /*  overflow-y:scroll;*/
-        /*  background: {color:Background};*/
-        /*}*/
+
 
         .fuse-content .post-answer {
             border: 5px solid {color:Accent};
@@ -372,38 +360,6 @@
             color:{color:Background};
         }
         
-        article.post.pp .post-header {
-            -webkit-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out; 
-            position:absolute;
-            top:27px;
-            left:24px;
-            visibility:hidden;
-            opacity:0;
-            color:#E7E7E7;
-            z-index:3;
-            font-size:16px;
-            cursor:url("http://static.tumblr.com/evx2wil/6N2o49gaj/plus.svg"),auto;
-            cursor:-webkit-image-set(url("http://static.tumblr.com/evx2wil/6N2o49gaj/plus.svg")),auto;
-            -webkit-transform: translate3d(0,-5px,0);
-            transform: translate3d(0,-5px,0);
-        }
-        article.post.pp:hover .post-header {
-            opacity:1;
-            visibility:visible;
-            -webkit-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out;
-            -webkit-transform: translate3d(0,0,0);
-            transform: translate3d(0,0,0);
-        }
-        
-        .post-header a {
-            color:#fff;
-            font-size:16px;
-            display:block;
-            cursor:url("http://static.tumblr.com/evx2wil/6N2o49gaj/plus.svg"),auto;
-            cursor:-webkit-image-set(url("http://static.tumblr.com/evx2wil/6N2o49gaj/plus.svg")),auto;
-        }
         
         #sidebar {
             color:{color:Sidebar Text};
@@ -799,12 +755,6 @@
                     display:none;
                 }
             {/block:IfNotShowPostNotes}
-        
-            {block:IfNotShowRebloggedFrom}
-                .reblogged-from {
-                    display:none;
-                }
-            {/block:IfNotShowRebloggedFrom}
             
             {block:IfNotShowPhotoOverlay}
                 .overlay, .overlay-bg {
